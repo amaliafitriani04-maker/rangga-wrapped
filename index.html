@@ -317,7 +317,7 @@ Lia
 💌 Open Secret Message
 </button>
 
-<div class="secret" id="secret">
+<div class="secret" id="secret" style="display:none">
 
 Even after all the arguments,
 
@@ -493,17 +493,24 @@ update();
 
 });
 
-function showSecret(){
+function showSecret() {
 
-document.getElementById("secret").style.display="block";
+const secret = document.getElementById("secret");
 
+if(secret.style.display === "block"){
+secret.style.display = "none";
+}else{
+secret.style.display = "block";
+}
+
+if(typeof confetti === "function"){
 confetti({
 particleCount:120,
 spread:90
 });
-
 }
 
+}
 </script>
 
 </body>

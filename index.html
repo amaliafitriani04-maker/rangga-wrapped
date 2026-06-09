@@ -3,358 +3,251 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rangga Wrapped 2026 ❤️</title>
-
+<title>Happy Birthday Rangga ❤️</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Segoe UI',sans-serif;
-}
-
-body{
-    overflow:hidden;
-    background:#000;
-    color:white;
-}
-
-.progress{
-    position:fixed;
-    top:15px;
-    left:50%;
-    transform:translateX(-50%);
-    width:90%;
-    display:flex;
-    gap:4px;
-    z-index:100;
-}
-
-.bar{
-    flex:1;
-    height:4px;
-    background:rgba(255,255,255,.25);
-    border-radius:20px;
-}
-
-.bar.active{
-    background:white;
-}
-
-.wrapper{
-    height:100vh;
-    transition:transform .7s ease;
-}
-
-.slide{
-    height:100vh;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    padding:30px;
-}
-
-.slide h1{
-    font-size:3rem;
-    margin-bottom:15px;
-}
-
-.slide h2{
-    font-size:2rem;
-    margin-bottom:15px;
-}
-
-.slide p{
-    max-width:700px;
-    line-height:1.8;
-    font-size:1.2rem;
-}
-
-.small{
-    font-size:1rem;
-    opacity:.8;
-}
-
-.gradient1{
-    background:linear-gradient(135deg,#1DB954,#191414);
-}
-
-.gradient2{
-    background:linear-gradient(135deg,#8E2DE2,#4A00E0);
-}
-
-.gradient3{
-    background:linear-gradient(135deg,#FF416C,#FF4B2B);
-}
-
-.gradient4{
-    background:linear-gradient(135deg,#00B4DB,#0083B0);
-}
-
-.gradient5{
-    background:linear-gradient(135deg,#f7971e,#ffd200);
-}
-
-.gradient6{
-    background:linear-gradient(135deg,#232526,#414345);
-}
-
-.gradient7{
-    background:linear-gradient(135deg,#DA22FF,#9733EE);
-}
-
-.gradient8{
-    background:linear-gradient(135deg,#11998e,#38ef7d);
-}
-
-.gradient9{
-    background:linear-gradient(135deg,#ee0979,#ff6a00);
-}
-
-.gradient10{
-    background:linear-gradient(135deg,#141E30,#243B55);
-}
-
-.emoji{
-    font-size:4rem;
-    margin-bottom:20px;
-}
-
-.tap{
-    position:absolute;
-    bottom:40px;
-    opacity:.8;
-    animation:bounce 1.5s infinite;
-}
-
-@keyframes bounce{
-    50%{transform:translateY(-8px);}
-}
-
-.big{
-    font-size:5rem;
-    font-weight:bold;
-}
-
-@media(max-width:768px){
-    .slide h1{
-        font-size:2.2rem;
-    }
-
-    .slide h2{
-        font-size:1.6rem;
-    }
-
-    .big{
-        font-size:3rem;
-    }
-
-    .slide p{
-        font-size:1rem;
-    }
-}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+body{overflow:hidden;background:#000;color:#fff}
+.loading{position:fixed;inset:0;background:#000;display:flex;flex-direction:column;justify-content:center;align-items:center;z-index:9999}
+.loading h1{color:#1DB954;margin-bottom:20px;text-align:center}
+.counter{font-size:3rem;font-weight:700}
+.hearts{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:1}
+.heart{position:absolute;bottom:-50px;opacity:.7;animation:floatUp linear forwards}
+@keyframes floatUp{from{transform:translateY(0)}to{transform:translateY(-120vh)}}
+.progress{position:fixed;top:15px;left:50%;transform:translateX(-50%);width:90%;display:flex;gap:4px;z-index:100}
+.bar{flex:1;height:4px;background:rgba(255,255,255,.25);border-radius:20px}
+.bar.active{background:#fff}
+.wrapper{height:100vh;transition:transform .8s ease;position:relative;z-index:5}
+.slide{height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:24px}
+.card{background:rgba(255,255,255,.12);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.2);padding:24px;border-radius:24px;max-width:700px;margin-top:20px;line-height:1.8}
+h1{font-size:3rem}.glow{text-shadow:0 0 10px #fff,0 0 20px #1DB954,0 0 40px #1DB954}
+h2{font-size:2rem;margin-bottom:15px}
+.big{font-size:4rem;font-weight:700}
+.emoji{font-size:4rem}
+.tap{position:absolute;bottom:40px;animation:bounce 1.5s infinite}
+@keyframes bounce{50%{transform:translateY(-8px)}}
+.gradient1{background:linear-gradient(135deg,#1DB954,#191414)}
+.gradient2{background:linear-gradient(135deg,#8E2DE2,#4A00E0)}
+.gradient3{background:linear-gradient(135deg,#ff416c,#ff4b2b)}
+.gradient4{background:linear-gradient(135deg,#00B4DB,#0083B0)}
+.gradient5{background:linear-gradient(135deg,#f7971e,#ffd200)}
+.gradient6{background:linear-gradient(135deg,#232526,#414345)}
+.gradient7{background:linear-gradient(135deg,#DA22FF,#9733EE)}
+.gradient8{background:linear-gradient(135deg,#11998e,#38ef7d)}
+.gradient9{background:linear-gradient(135deg,#ee0979,#ff6a00)}
+.gradient10{background:linear-gradient(135deg,#141E30,#243B55)}
+@media(max-width:768px){h1{font-size:2.2rem}h2{font-size:1.5rem}.big{font-size:3rem}}
 </style>
 </head>
 <body>
 
+<div class="loading" id="loading">
+<h1>Generating Relationship Wrapped...</h1>
+<div class="counter" id="counter">0%</div>
+</div>
+
+<div class="hearts" id="hearts"></div>
 <div class="progress" id="progress"></div>
 
 <div class="wrapper" id="wrapper">
 
 <section class="slide gradient1">
 <h2>SPOTIFY WRAPPED PRESENTS</h2>
-<h1>RANGGA ❤️</h1>
-<p>Your Relationship Wrapped 2026</p>
-<div class="tap">Tap / Swipe ↑</div>
+<h1 class="glow">RANGGA ❤️</h1>
+<div class="card">
+A special report created by Lia after 16 months of loving, laughing, arguing, surviving, and still choosing each other.
+</div>
+<div class="tap">Tap Anywhere ❤️</div>
 </section>
 
 <section class="slide gradient2">
 <h2>YOUR JOURNEY WITH LIA</h2>
-<div class="big">1 Year 4 Months</div>
-<p>No skips. No refunds. Still playing.</p>
+<div class="big">1 YEAR 4 MONTHS</div>
+<div class="card">No skips.<br>No pause button.<br>Still playing.</div>
 </section>
 
 <section class="slide gradient3">
 <div class="emoji">📱</div>
-<h2>MOST PLAYED MOMENT</h2>
-<p>
-Seeing your face on video call.
-<br><br>
-Played every single day.
-</p>
+<h2>MOST PLAYED MEMORY</h2>
+<div class="big">365+</div>
+<div class="card">
+Seeing your face on video call.<br><br>
+My favorite part of every day.
+</div>
 </section>
 
 <section class="slide gradient4">
 <div class="emoji">🍣</div>
 <h2>TOP DESTINATION</h2>
-<p>
-Sushi Hiro
-<br><br>
-The official restaurant of our memories.
-</p>
+<div class="card">
+Sushi Hiro<br><br>
+Official sponsor of our memories.
+</div>
 </section>
 
 <section class="slide gradient5">
-<h2>RANGGA STATS</h2>
-<p>
-💼 Work Mode: 100%<br><br>
-😴 Sleep Mode: 300%<br><br>
-❤️ Missed By Lia: Infinite
-</p>
+<h2>RANGGA'S LIFE STATS</h2>
+<div class="card">💼 Working Hard<br><br>██████████ 100%</div>
+<div class="card">😴 Sleeping<br><br>████████████████ 250%</div>
+<div class="card">❤️ Being Missed By Lia<br><br>∞%</div>
+</section>
+
+<section class="slide gradient2">
+<h2>TOP ACTIVITIES OF RANGGA</h2>
+<div class="card">
+🥇 Sleeping<br><br>
+🥈 Working<br><br>
+🥉 Sleeping Again<br><br>
+🏅 Thinking About Lia (hopefully)
+</div>
 </section>
 
 <section class="slide gradient6">
 <h2>TOP MEMORIES</h2>
-<p>
+<div class="card">
 🥇 Video Calls<br><br>
-🥈 Meeting Each Other<br><br>
+🥈 Finally Meeting You<br><br>
 🥉 Laughing At Random Things
-</p>
+</div>
 </section>
 
 <section class="slide gradient7">
-<h2>CHALLENGES COMPLETED</h2>
-<p>
-✓ Small Arguments<br>
-✓ Big Arguments<br>
-✓ Misunderstandings<br>
+<h2>BOSS BATTLES COMPLETED</h2>
+<div class="card">
+✓ Small Arguments<br><br>
+✓ Big Arguments<br><br>
+✓ Misunderstandings<br><br>
 ✓ Moments We Almost Gave Up
-</p>
+</div>
+</section>
+
+<section class="slide gradient6">
+<h2>❤️ A LITTLE SECRET</h2>
+<div class="card">
+There was a moment...<br><br>
+when we almost gave up.<br><br>
+And honestly...<br><br>
+I'm really glad we didn't.
+</div>
 </section>
 
 <section class="slide gradient8">
-<div class="emoji">🏆</div>
-<h2>ACHIEVEMENT UNLOCKED</h2>
-<p>
-"Still Choosing Each Other"
-<br><br>
+<h2>🏆 ACHIEVEMENT UNLOCKED</h2>
+<div class="card">
+Still Choosing Each Other<br><br>
 Completion Rate: 100%
-</p>
+</div>
 </section>
 
 <section class="slide gradient9">
-<h2>RELATIONSHIP STATISTICS</h2>
-<p>
-Times We Laughed: Countless<br><br>
-Times We Argued: Many<br><br>
-Times We Came Back: Every Time<br><br>
-Times I Loved You: Every Day
-</p>
+<h2>YOUR FINAL RANKING</h2>
+<div class="big">#1</div>
+<div class="card">
+Favorite Person<br><br>
+For 16 Months Straight
+</div>
 </section>
 
 <section class="slide gradient10">
-<h2>YOUR FINAL RESULT</h2>
-<div class="big">#1</div>
-<p>
-Favorite Person<br>
-for 16 Months Straight
-</p>
-</section>
-
-<section class="slide gradient1">
-<h2>HAPPY BIRTHDAY RANGGA ❤️</h2>
-
-<p>
-Thank you for staying through the easy days and the difficult ones.
-<br><br>
-
-We've argued about small things,
-we've argued about big things,
-and there were moments when it felt easier to give up.
-<br><br>
-
-But somehow, we always found our way back.
-<br><br>
-
-Thank you for choosing us.
-<br><br>
-
-I know you're always busy working hard,
-and when you're not working,
-you're probably sleeping.
-<br><br>
-
-But even then,
-my favorite part of every day
-is still seeing your face,
-whether through a screen or in person.
-<br><br>
-
-I hope this year brings you happiness,
-success, good health,
-and more reasons to smile.
-<br><br>
-
-Love,
-<br><br>
-
-<b>Lia ❤️</b>
-</p>
+<h2>🎂 HAPPY BIRTHDAY RANGGA</h2>
+<div class="card">
+Out of 8 billion people...<br><br>
+My favorite one is still you.<br><br>
+Thank you for staying.<br>
+Thank you for trying.<br>
+Thank you for choosing us.<br><br>
+For every video call.<br>
+For every Sushi Hiro date.<br>
+For every argument we survived.<br>
+For every day we decided not to give up.<br><br>
+I know you're busy.<br>
+I know you're tired.<br>
+I know sometimes life gets heavy.<br><br>
+But I hope this year gives you everything you've been working so hard for.<br><br>
+And no matter what happens,<br>
+you'll always have me.<br><br>
+❤️<br><br>
+Love,<br>
+Lia
+</div>
 </section>
 
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
 <script>
-const slides = document.querySelectorAll(".slide");
-const wrapper = document.getElementById("wrapper");
-const progress = document.getElementById("progress");
+let count=0;
+const counter=document.getElementById("counter");
+const load=setInterval(()=>{
+count++;
+counter.innerHTML=count+"%";
+if(count>=100){
+counter.innerHTML="Memories Found ❤️";
+clearInterval(load);
+setTimeout(()=>{
+document.getElementById("loading").style.opacity="0";
+setTimeout(()=>document.getElementById("loading").remove(),700);
+},600);
+}
+},20);
 
-let current = 0;
+const hearts=document.getElementById("hearts");
+setInterval(()=>{
+const h=document.createElement("div");
+h.className="heart";
+h.innerHTML="❤️";
+h.style.left=Math.random()*100+"%";
+h.style.fontSize=(20+Math.random()*30)+"px";
+h.style.animationDuration=(6+Math.random()*4)+"s";
+hearts.appendChild(h);
+setTimeout(()=>h.remove(),10000);
+},500);
+
+const slides=document.querySelectorAll(".slide");
+const wrapper=document.getElementById("wrapper");
+const progress=document.getElementById("progress");
+let current=0;
+let confettiPlayed=false;
 
 slides.forEach((_,i)=>{
-    const bar = document.createElement("div");
-    bar.classList.add("bar");
-    if(i===0) bar.classList.add("active");
-    progress.appendChild(bar);
+const b=document.createElement("div");
+b.classList.add("bar");
+if(i===0)b.classList.add("active");
+progress.appendChild(b);
 });
 
-const bars = document.querySelectorAll(".bar");
+function launchConfetti(){
+if(confettiPlayed) return;
+confettiPlayed=true;
+confetti({particleCount:180,spread:120,origin:{y:0.6}});
+}
 
 function updateSlide(){
-    wrapper.style.transform =
-        `translateY(-${current*100}vh)`;
-
-    bars.forEach((bar,index)=>{
-        bar.classList.toggle("active",index<=current);
-    });
+wrapper.style.transform=`translateY(-${current*100}vh)`;
+document.querySelectorAll('.bar').forEach((bar,index)=>{
+bar.classList.toggle("active",index<=current);
+});
+if(current===slides.length-1) launchConfetti();
 }
 
 document.addEventListener("click",()=>{
-    if(current < slides.length-1){
-        current++;
-        updateSlide();
-    }
+if(current<slides.length-1){current++;updateSlide();}
 });
 
 document.addEventListener("wheel",(e)=>{
-    if(e.deltaY>0 && current<slides.length-1){
-        current++;
-    }else if(e.deltaY<0 && current>0){
-        current--;
-    }
-    updateSlide();
+if(e.deltaY>0 && current<slides.length-1) current++;
+else if(e.deltaY<0 && current>0) current--;
+updateSlide();
 });
 
 let startY=0;
-
-document.addEventListener("touchstart",(e)=>{
-    startY=e.touches[0].clientY;
-});
-
+document.addEventListener("touchstart",(e)=>{startY=e.touches[0].clientY;});
 document.addEventListener("touchend",(e)=>{
-    let endY=e.changedTouches[0].clientY;
-
-    if(startY-endY>50 && current<slides.length-1){
-        current++;
-    }else if(endY-startY>50 && current>0){
-        current--;
-    }
-
-    updateSlide();
+let endY=e.changedTouches[0].clientY;
+if(startY-endY>50 && current<slides.length-1) current++;
+else if(endY-startY>50 && current>0) current--;
+updateSlide();
 });
 </script>
-
 </body>
 </html>
